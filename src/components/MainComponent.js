@@ -20,7 +20,7 @@ class Main extends Component {
 
   render() {
     return (
-      <div>
+      <div> 
         <Navbar dark color="primary">
           <div className="container">
             <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
