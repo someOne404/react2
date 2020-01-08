@@ -1,3 +1,12 @@
+
+# Web app for restaurant "Ristorante con Fusion"
+A project for MOOC "Front-End Web Development with React."
+
+## Tools 
+1. Library: React
+2. Node Package Manager: Yarn
+3. UI Framework: React Bootstrap
+----------------------------------------------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
