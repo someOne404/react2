@@ -30,7 +30,7 @@ function RenderComments({comments}) {
                         {'--' + c.author}
                         {', ' + new Intl.DateTimeFormat('en-US', { 
                             year: 'numeric', 
-                            month: 'long', 
+                            month: 'short', 
                             day: '2-digit' 
                             }).format(new Date(c.date))}
                     </p>
