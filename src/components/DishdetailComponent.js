@@ -25,7 +25,7 @@ function RenderDish({dish}) {
     }
 }
 
-function RenderComments({comments, addComment, dishId}) {
+function RenderComments({comments, postComment, dishId}) {
     if(comments !== null){
         const commentView = comments.map(c => {
             return (
@@ -48,7 +48,7 @@ function RenderComments({comments, addComment, dishId}) {
                 <ul className = "list-unstyled">
                     {commentView}
                 </ul>        
-                <CommentForm dishId={dishId} addComment={addComment} />
+                <CommentForm dishId={dishId} postComment={postComment} />
             </div>
         );
     }
@@ -97,7 +97,7 @@ const DishDetail = (props) =>  {
                     </div>
                     <div className="col-12 col-md-5 m-1">
                         <RenderComments comments={props.comments ? props.comments : null} 
-                            addComment={props.addComment} 
+                            postComment={props.postComment} 
                             dishId={props.dish.id}/>
                     </div>
                 </div>
